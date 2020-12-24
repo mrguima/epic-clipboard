@@ -1,4 +1,4 @@
-# EPIC Clipboard by Guima
+# EPIC Clipboard for EPIC RPG Discord Bot by Guima
 
 ![EPIC Clipboard](https://user-images.githubusercontent.com/38497003/103065216-cbb44f00-4594-11eb-9128-72b25caedfff.png)
 
