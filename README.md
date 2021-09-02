@@ -1,5 +1,4 @@
-# EPIC Clipboard for EPIC RPG Discord Bot by Guima
-# Edit by Zenkarus
+# EPIC RPG Clipboard by Guima | Edit by Zenkarus
 
 ![-](https://user-images.githubusercontent.com/36195517/131927923-f7f4fdb0-2459-44ac-9c12-581d35787df2.png)
 
