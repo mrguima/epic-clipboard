@@ -277,4 +277,3 @@ C_RPG:
 GuiEscape:
 GuiClose:
     ExitApp
-
