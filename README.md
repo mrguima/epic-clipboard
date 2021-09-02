@@ -1,7 +1,7 @@
-# EPIC RPG Clipboard by Guima | Edit by Zenkarus
-
-![-](https://user-images.githubusercontent.com/36195517/131927923-f7f4fdb0-2459-44ac-9c12-581d35787df2.png)
-
+## EPIC RPG Clipboard by Guima | Edit by Zenkarus
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/36195517/131927923-f7f4fdb0-2459-44ac-9c12-581d35787df2.png"/>
+</p>
 
 ## DISCLAIMER
 - **THIS IS NOT AN AUTOTYPER. IN NO WAY DOES THIS ALLOW AUTOMATION OF ANY OF THE EPIC RPG COMMANDS.**
