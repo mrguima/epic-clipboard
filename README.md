@@ -1,6 +1,6 @@
-## EPIC RPG Clipboard by Guima | Edit by Zenkarus
+## EPIC Clipboard by Guima | Edit by Zenkarus
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/36195517/131935015-2cbb619e-8782-48df-80c7-2f2f722add14.png"/>
+  <img src="https://user-images.githubusercontent.com/36195517/132056098-de9cdb8e-b0f6-4524-a06c-d8ae438fc850.png"/>
 </p>
 
 
@@ -12,7 +12,6 @@
 ## DESCRIPTION
 EPIC Clipboard is an alternative for Windows Clipboard, written in [AutoHotkey](https://www.autohotkey.com/), to play [EPIC RPG](https://top.gg/bot/555955826880413696). 
 - Originally made by Guima, this edit was done to update the base version with added buttons and commands.
-- The script works exactly the same, only difference with the additions of more commands and having the script send the command as well instead of you having to manually press enter after every command. 
 
 ## FEATURES
 - **Hero Panel** - Check Profile | Check Inventory | Heal
@@ -21,16 +20,15 @@ EPIC Clipboard is an alternative for Windows Clipboard, written in [AutoHotkey](
 - **Pings Panel** - Summon | Time to Fight | Join | Fish | Chop | Catch
 - **Rewards Panel** - Lootbox | Vote | Daily | Weekly
 - **Enchant Panel** - Enchant Sword | Enchant Armor
-
-Every command is autosent with the exception of the Duel command, which requires you to enter the @id of the person you wish to duel. 
   
 ## HOW TO USE
 **THIS SCRIPT WILL ONLY WORK WITH THE WINDOWS DISCORD APPLICATION, NOT THE BROWSER.**
 
-1. Download [AutoHotkey](https://www.autohotkey.com/). 
-2. Unzip files to any folder of your choosing. 
-3. Make sure [config.ini](src/config.ini) and [EpicClipboard.ahk](src/EpicClipboard.ahk) are in the same folder.
-4. Run [EpicClipboard.ahk](src/EpicClipboard.ahk) to start the script.
+1. Download and install [AutoHotkey](https://www.autohotkey.com/). 
+2. Download and install Fira Code font. (Optional)
+3. Download script and unzip files to any folder of your choosing. 
+4. Make sure [config.ini](src/config.ini) and [EpicClipboard.ahk](src/EpicClipboard.ahk) are in the same folder.
+5. Run [EpicClipboard.ahk](src/EpicClipboard.ahk) to start the script.
 
 ## SETUP
 This script is customizable to fit your area/time travels. In order to change the commands to fit your needs, you need to edit the [config.ini](src/config.ini) file. 
