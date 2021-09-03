@@ -129,7 +129,7 @@ EQuest_RPG:
 
 Duel_RPG:
     ControlFocus,, ahk_exe Discord.exe
-    ControlSend,, rpg duel @, ahk_exe Discord.exe
+    ControlSend,, rpg duel, ahk_exe Discord.exe
     return
 
 Cd_RPG:
