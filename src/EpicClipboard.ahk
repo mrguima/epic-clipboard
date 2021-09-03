@@ -12,7 +12,7 @@ IniRead, enchant_str, %A_ScriptDir%\config.ini, Commands, enchant
 IniRead, farm_str, %A_ScriptDir%\config.ini, Commands, farm
 
 ;GUI Settings
-Gui, Font, s10, Fira Code
+Gui, Font, s09, Fira Code
 
 ; Hero Panel
 Gui Add, GroupBox, x10 y5 w280 h65, Hero
