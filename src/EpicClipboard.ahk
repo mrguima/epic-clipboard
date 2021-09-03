@@ -12,7 +12,7 @@ IniRead, enchant_str, %A_ScriptDir%\config.ini, Commands, enchant
 IniRead, farm_str, %A_ScriptDir%\config.ini, Commands, farm
 
 ;GUI Settings
-Gui, Font, s10, Roboto
+Gui, Font, s10, Fira Code
 
 ; Hero Panel
 Gui Add, GroupBox, x10 y5 w280 h65, Hero
@@ -68,220 +68,185 @@ Gui Add, Button, x150 y550 w135 h40 gEArmor_RPG, ✨ Armor ✨
 
 ; Window Settings
 Gui, +Alwaysontop -MaximizeBox
-Gui Show, w295 h600, EPIC RPG Clipboard
+Gui Show, w295 h600, EPIC Clipboard
 Return
 
 ; Command Lines 
 Profile_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, rpg p, ahk_exe Discord.exe
-    SendInput {enter}
     return
     
 Items_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, rpg i, ahk_exe Discord.exe
-    SendInput {enter}
     return
     
 Hunt_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, rpg %hunt_str%, ahk_exe Discord.exe
-    SendInput {enter}
     return
     
 Hunt_t_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, rpg %hunt_str% together, ahk_exe Discord.exe
-    SendInput {enter}
     return
     
 Adv_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, rpg %adventure_str%, ahk_exe Discord.exe
-    SendInput {enter}
     return
     
 Train_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, rpg %training_str%, ahk_exe Discord.exe
-    SendInput {enter}
     return
     
 Work_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, rpg %work_str%, ahk_exe Discord.exe
-    SendInput {enter}
     return
     
 Farm_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, rpg farm, ahk_exe Discord.exe
-    SendInput {enter}
     return
 
 FarmC_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, rpg %farm_str%, ahk_exe Discord.exe
-    SendInput {enter}
     return
 
 Quest_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, rpg quest, ahk_exe Discord.exe
-    SendInput {enter}
     return
 
 EQuest_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, rpg epic quest, ahk_exe Discord.exe
-    SendInput {enter}
     return
 
 Duel_RPG:
     ControlFocus,, ahk_exe Discord.exe
-    ControlSend,, rpg duel, ahk_exe Discord.exe
+    ControlSend,, rpg duel @, ahk_exe Discord.exe
     return
 
 Cd_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, rpg cd, ahk_exe Discord.exe
-    SendInput {enter}
     return
     
 Rd_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, rpg rd, ahk_exe Discord.exe
-    SendInput {enter}
     return
     
 Heal_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, rpg heal, ahk_exe Discord.exe
-    SendInput {enter}
     return
 
 Summon_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, summon, ahk_exe Discord.exe
-    SendInput {enter}
     return
     
 TimeFight_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, time to fight, ahk_exe Discord.exe
-    SendInput {enter}
     return
     
 Join_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, join, ahk_exe Discord.exe
-    SendInput {enter}
     return
     
 Fish_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, fish, ahk_exe Discord.exe
-    SendInput {enter}
     return
     
 Chop_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, chop, ahk_exe Discord.exe
-    SendInput {enter}
     return
     
 Catch_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, catch, ahk_exe Discord.exe
-    SendInput {enter}
     return
 
 Lootbox_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, rpg buy %lootbox_str%, ahk_exe Discord.exe
-    SendInput {enter}
     return
 
 Daily_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, rpg daily, ahk_exe Discord.exe
-    SendInput {enter}
     return
 
 Weekly_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, rpg weekly, ahk_exe Discord.exe
-    SendInput {enter}
     return
 
 Vote_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, rpg vote, ahk_exe Discord.exe
-    SendInput {enter}
     return
 
 ESword_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, rpg %enchant_str% sword, ahk_exe Discord.exe
-    SendInput {enter}
     return
 
 EArmor_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, rpg %enchant_str% armor, ahk_exe Discord.exe
-    SendInput {enter}
     return
 
 Yes_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, y, ahk_exe Discord.exe
-    SendInput {enter}
     return
 
 No_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, n, ahk_exe Discord.exe
-    SendInput {enter}
     return
 
 A_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, a, ahk_exe Discord.exe
-    SendInput {enter}
     return
 
 B_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, b, ahk_exe Discord.exe
-    SendInput {enter}
     return
 
 C_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, c, ahk_exe Discord.exe
-    SendInput {enter}
     return
 
 1_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, 1, ahk_exe Discord.exe
-    SendInput {enter}
     return
 
 2_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, 2, ahk_exe Discord.exe
-    SendInput {enter}
     return
 
 3_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, 3, ahk_exe Discord.exe
-    SendInput {enter}
     return
 
 GuiEscape:
 GuiClose:
     ExitApp
-
