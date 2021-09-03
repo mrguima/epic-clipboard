@@ -24,14 +24,15 @@ Gui Add, Button, x195 y25 w90 h40 gHeal_RPG, Heal 🏥
 Gui Add, GroupBox, x10 y70 w280 h145, Actions
 Gui Add, Button, x15 y90 w90 h40 gHunt_RPG, Hunt 🏹
 Gui Add, Button, x105 y90 w90 h40 gAdv_RPG, Adv 🗡
-Gui Add, Button, x195 y90 w90 h40 gCd_RPG, CD ⏰
+Gui Add, Button, x195 y90 w45 h40 gCd_RPG, CD ⏰
+Gui Add, Button, x240 y90 w45 h40 gRd_RPG, RD ⌛
 Gui Add, Button, x15 y130 w90 h40 gWork_RPG, Work ⛏
 Gui Add, Button, x105 y130 w90 h40 gTrain_RPG, Train 💪
-Gui Add, Button, x195 y130 w90 h40 gRd_RPG, RD ⌛
+Gui Add, Button, x195 y130 w90 h40 gDuel_RPG, Duel ⚔️
 Gui Add, Button, x15 y170 w45 h40 gFarm_RPG, Farm 🚜
 Gui Add, Button, x60 y170 w45 h40 gFarmC_RPG, Farm 🌾
 Gui Add, Button, x105 y170 w90 h40 gQuest_RPG, Quest ❓
-Gui Add, Button, x195 y170 w90 h40 gDuel_RPG, Duel ⚔️
+Gui Add, Button, x195 y170 w90 h40 gEQuest_RPG, Epic Quest ❓
 
 ; Reply Panel 
 Gui Add, GroupBox, x10 y215 w280 h105, Reply
@@ -128,6 +129,12 @@ FarmC_RPG:
 Quest_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, rpg quest, ahk_exe Discord.exe
+    SendInput {enter}
+    return
+
+EQuest_RPG:
+    ControlFocus,, ahk_exe Discord.exe
+    ControlSend,, rpg epic quest, ahk_exe Discord.exe
     SendInput {enter}
     return
 
@@ -277,3 +284,4 @@ C_RPG:
 GuiEscape:
 GuiClose:
     ExitApp
+
