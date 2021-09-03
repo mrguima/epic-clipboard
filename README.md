@@ -16,7 +16,7 @@ EPIC Clipboard is an alternative for Windows Clipboard, written in [AutoHotkey](
 
 ## FEATURES
 - **Hero Panel** - Check Profile | Check Inventory | Heal
-- **Actions Panel** - Hunt | Adv | Work | Train | Farm/Farm Seed | Quest | Duel | CD/RD
+- **Actions Panel** - Hunt | Adv | Work | Train | Farm/Farm Seed | Quest/Epic Quest | Duel | CD/RD
 - **Reply Panel** - Yes | No | Numbers | ABC
 - **Pings Panel** - Summon | Time to Fight | Join | Fish | Chop | Catch
 - **Rewards Panel** - Lootbox | Vote | Daily | Weekly
