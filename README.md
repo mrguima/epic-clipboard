@@ -25,11 +25,12 @@ EPIC Clipboard is an alternative for Windows Clipboard, written in [AutoHotkey](
 ## HOW TO USE
 **THIS SCRIPT WILL ONLY WORK WITH THE WINDOWS DISCORD APPLICATION, NOT THE BROWSER.**
 
-1. Download and install [AutoHotkey](https://www.autohotkey.com/). 
-2. Download and install [Fira Code](https://fonts.google.com/download?family=Fira%20Code) font. (Optional)
-3. Download script and unzip files to any folder of your choosing. 
-4. Make sure [config.ini](src/config.ini) and [EpicClipboard.ahk](src/EpicClipboard.ahk) are in the same folder.
-5. Run [EpicClipboard.ahk](src/EpicClipboard.ahk) to start the script.
+1. Download and install [AutoHotkey](https://www.autohotkey.com/).
+2. Download script and unzip files to any folder of your choosing. 
+3. Make sure you have [config.ini](src/config.ini) and [EpicClipboard.ahk](src/EpicClipboard.ahk) in the same folder.
+4. Run [EpicClipboard.ahk](src/EpicClipboard.ahk) to start the script.
+
+If you want it to look fancy, download and install [Fira Code](https://github.com/tonsky/FiraCode) font. This step is completely optional.
 
 ## SETUP
 - This script is customizable to fit your area/time travels.
