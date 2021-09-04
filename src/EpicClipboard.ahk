@@ -11,8 +11,14 @@ IniRead, lootbox_str, %A_ScriptDir%\config.ini, Commands, lootbox
 IniRead, enchant_str, %A_ScriptDir%\config.ini, Commands, enchant
 IniRead, farm_str, %A_ScriptDir%\config.ini, Commands, farm
 
-;GUI Settings
-Gui, Font, s09, Fira Code
+; Read the saved positions or center if not previously saved
+IniRead, window_position, %A_ScriptDir%\config.ini, Settings, window_position, Center
+
+; Get the window's ID so you can get its position later
+Gui, +Hwndgui_id
+
+; GUI Settings
+Gui, Font, s09, Fira Code, Roboto
 
 ; Hero Panel
 Gui Add, GroupBox, x10 y5 w280 h65, Hero
@@ -68,7 +74,8 @@ Gui Add, Button, x150 y550 w135 h40 gEArmor_RPG, ✨ Armor ✨
 
 ; Window Settings
 Gui, +Alwaysontop -MaximizeBox
-Gui Show, w295 h600, EPIC Clipboard
+; Show the window at the saved position
+Gui Show, %window_position% w300 h600, EPIC Clipboard
 Return
 
 ; Command Lines 
@@ -249,4 +256,7 @@ C_RPG:
 
 GuiEscape:
 GuiClose:
+    ; When you close the window, get its position and save it
+    WinGetPos, gui_x, gui_y,,, ahk_id %gui_id%
+    IniWrite, x%gui_x% y%gui_y%, %A_ScriptDir%\config.ini, Settings, window_position
     ExitApp
