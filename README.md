@@ -1,6 +1,6 @@
 ## EPIC Clipboard by Guima | Edit by Zenkarus
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/36195517/132056098-de9cdb8e-b0f6-4524-a06c-d8ae438fc850.png"/>
+  <img src="https://user-images.githubusercontent.com/38497003/132077669-5a0ab5be-84c9-411b-82f6-26eda282dc22.png"/>
 </p>
 
 ## DISCLAIMER
